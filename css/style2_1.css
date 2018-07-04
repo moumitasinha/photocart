@@ -1,0 +1,251 @@
+*{
+        box-sizing:border-box;
+}
+.c1_1{
+        color:rgb(255,0,0);
+        float:left;
+        border: solid 5px black;
+        width:30%;
+        height:10%;
+        
+}
+#c1_1{
+        width:100%;
+        height:100%;
+}
+.c1_2{
+        color:rgb(255,0,0);
+        float:left;
+        border: solid 5px black;
+        width:40%;
+        height:10%;
+        
+}
+div>center{
+         font-size: 80px;
+         padding: 15px 50px 25px 50px;
+         color: black;
+         text-shadow: 2px 2px;
+         position:relative;
+         bottom:5px;
+}
+.c1_3{
+        color:rgb(255,0,0);
+        float:left;
+        border: solid 5px black;
+        width:30%;
+        height:10%;
+        
+}
+.c1_3{
+        
+        float:right;
+        background-image: url("/photocart/img/350871-website-background-1920x1200-high-resolution.jpg");
+        width:30%;
+        height:10%;
+  }
+#back{
+        width:10em;
+        height:2em;
+        background-color:rgb(30,60,50);
+        position: relative;
+        top:10px;
+        bottom:0px;
+        left:120px;
+        border:solid 5px black;
+        color:rgb(255,255,0);
+        font-size: 30px;
+        
+    }
+
+.c2_1{
+        color:rgb(255,0,0);
+        float:left;
+        
+        width:50%;
+        height:50%;
+       
+        
+}
+.c2_1_1{
+        color:rgb(255,0,0);
+        float:left;
+        border: solid 5px black;
+        width:100%;
+        height:50%;
+        
+        
+}
+#photographers{
+       
+        width:100%;
+        height:100%;
+        
+}
+
+.c2_1_2{
+        color:rgb(255,0,0);
+        float:left;
+        border: solid 5px black;
+        width:100%;
+        height:50%;
+       
+}
+
+.c2_2{
+        color:rgb(255,0,0);
+        float:left;
+        border: solid 5px black;
+        width:25%;
+        height:50%;
+        
+}
+#c2_2{
+        width:100%;
+        height:100%;
+}
+.c2_3{
+        color:rgb(255,0,0);
+        float:left;
+        border: solid 5px black;
+        width:25%;
+        height:50%;
+        
+}
+.c2_2{
+        color:rgb(255,0,0);
+        float:left;
+        border: solid 5px black;
+        width:25%;
+        height:50%;
+        
+}
+.c2_3{
+        color:rgb(255,0,0);
+        float:left;
+        border: solid 5px black;
+        width:25%;
+        height:50%;
+        
+}
+.c3_1{
+        color:rgb(255,0,0);
+        float:left;
+        
+        width:50%;
+        height:50%;
+        
+        
+}
+
+.c3_2{
+        color:rgb(255,0,0);
+        float:left;
+        border: solid 5px black;
+        width:25%;
+        height:50%;
+        
+}
+.c3_3{
+        color:rgb(255,0,0);
+        float:left;
+        border: solid 5px black;
+        width:25%;
+        height:50%;
+        
+}
+.c4_1{
+        color:rgb(255,0,0);
+        float:right;
+        border: solid 5px black;
+        width:50%;
+        height:50%;
+        
+        
+}
+.c4_2{
+        color:rgb(255,0,0);
+        float:right;
+        border: solid 5px black;
+        width:50%;
+        height:50%;
+       
+}
+.c5_1{
+        color:rgb(255,0,0);
+        float:right;
+        border: solid 5px black;
+        width:50%;
+        height:50%;
+        
+        
+}
+.c5_2{
+        color:rgb(255,0,0);
+        float:right;
+        border: solid 5px black;
+        width:50%;
+        height:50%;
+       
+}
+.c6_1{
+        color:rgb(255,0,0);
+        float:left;
+        border: solid 5px black;
+        width:40%;
+        height:100%;
+        
+        
+}
+.c6_2{
+        color:rgb(255,0,0);
+        float:left;
+        border: solid 5px black;
+        width:60%;
+        height:100%;
+        
+        
+}
+
+
+#p_2{       
+        font-size: 80px;
+        padding: 25px 50px 25px 50px;
+        color: white;
+        text-shadow: 2px 2px;
+        position:relative;
+        bottom:-40px;
+        left:25px;
+        background-image: url("/photocart/img/images (3).jpeg");
+}
+
+#p_3{       
+        font-size: 80px;
+        padding: 25px 50px 25px 50px;
+        color: white;
+        text-shadow: 2px 2px;
+        position:relative;
+        bottom:-40px;
+        left:25px;
+        background-image: url("/photocart/img/images (3).jpeg");
+}
+
+.c3_1_1{
+        color:rgb(255,0,0);
+        float:left;
+        border: solid 5px black;
+        width:100%;
+        height:50%;
+        
+}
+
+.c3_1_2{
+        color:rgb(255,0,0);
+        float:left;
+        border: solid 5px black;
+        width:100%;
+        height:50%;
+        
+}
+
+

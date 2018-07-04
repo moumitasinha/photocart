@@ -1,0 +1,163 @@
+  *{
+        box-sizing:border-box;
+        background-color: rgb(0,0,0);
+    }
+    .c1_1{
+        color:rgb(255,0,0);
+        float:left;
+        
+        width:30%;
+        height:19%;
+        
+    }
+     div img{
+        width:100%;
+        height:100%;
+    }
+    .c1_2{
+        
+        color:rgb(255,0,0);
+        float:left;
+        border:solid 5px black;
+        width:40%;
+        height:10%;
+        
+    
+    }
+    div>center{
+         font-size: 80px;
+         padding: 25px 50px 25px 50px;
+         color: yellow;
+         text-shadow: 2px 2px;
+         position:relative;
+         bottom:5px;
+    }
+    .c1_3{
+        color:rgb(255,0,0);
+        float:right;
+         
+        width:30%;
+        height:10%;
+    }
+    .c2_1{
+        color:rgb(255,0,0);
+        float:right;
+        background-color: rgb(0,0,0);
+        width:60%;
+        height:10%;
+        
+        
+    }
+    #home{
+        width:10em;
+        height:2em;
+        background-color:rgb(255,0,0);
+        position: relative;
+        top:15px;
+        bottom:-2px;
+        left:120px;
+        font-size: 30px;
+    }
+    .home{
+        display: inline-block;
+        float: left;
+    }
+    #categories{
+        width:10em;
+        height:2em;
+        background-color:rgb(255,0,0);
+        position: relative;
+        top:15px;
+        bottom:0px;
+        left:130px;
+        
+        font-size: 30px;
+    
+    }
+    .categories{
+        display: inline-block;
+        
+    }
+    #login{
+        width:10em;
+        height:2em;
+        background-color:rgb(255,0,0);
+        position: relative;
+        top:15px;
+        bottom:-2px;
+        
+        right:62px;
+        
+        font-size: 30px;
+    }
+    .login{
+        display: inline-block;
+        float: right;
+    }
+    
+    .c3_1{
+        color:rgb(255,0,0);
+        float:left;
+        border:solid 5px black;
+        width:20%;
+        height:60%;
+        position:relative;
+        top:10px;
+        
+    }
+    .c3_2{
+        color:rgb(255,0,0);
+        float:left;
+        border:solid 5px black;
+        width:60%;
+        height:60%;
+        
+    }
+    .c3_3{
+        color:rgb(255,0,0);
+        float:left;
+        border:solid 5px black;
+        width:20%;
+        height:60%;
+        
+    }
+   
+    
+    .c3_2_1{
+        color:rgb(255,0,0);
+        float:left;
+        
+        width:100%;
+        height:35%;
+        
+    }
+    
+        
+    
+    .c3_2_3_1{
+        color:rgb(255,0,0);
+        float:left;
+        border:solid 5px black;
+        width:50%;
+        height:65%;
+        
+    }
+     .c3_2_3_2{
+        color:rgb(255,0,0);
+        float:left;
+        border:solid 5px black;
+        width:50%;
+        height:65%;
+        
+    }
+    
+    .c4{
+        color:rgb(255,0,0);
+        float:left;
+        border:solid 5px black;
+        width:100%;
+        height:20%;
+        
+    }
+   
+

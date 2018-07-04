@@ -1,0 +1,158 @@
+<div class="c2">
+            <div class="c2_1">
+                <div class="c2_1_1">
+                    <img src="/photocart/img/stock-vector-photographer-word-retro-style-680381590.jpg" id="photographers">
+                </div>
+                <div class="c2_1_2">
+                    <form action="" >
+                    <input type="submit" id="p_1" value="ARNAB  SAMANTA  " > 
+                    </form>
+                </div>
+            </div>
+            <div class="c2_2">
+                <img src="/photocart/img/pexels-photo-302743.jpeg" id="c2_2">
+            </div>
+            <div class="c2_3">
+                 <img src="/photocart/img/pexels-photo-248159.jpeg" id="c2_2">
+            </div>
+        </div>
+        <div class="c3">
+            <div class="c3_1">
+                <div class="c3_1_1">
+                    <form action="" >
+                    <input type="submit" id="p_2" value="    MAITHILI  ROY    " > 
+                    </form>
+                </div>
+                <div class="c3_1_2">
+                    <form action="" >
+                    <input type="submit" id="p_3" value="DEBANGAN  MITRA" > 
+                    </form>
+                </div>
+            </div>
+            <div class="c3_2">
+                <img src="/photocart/img/pexels-photo-169978.jpeg" id="c2_2">
+            </div>
+            
+            
+            
+            
+            
+            
+#p_1{       
+        font-size: 80px;
+        padding: 25px 50px 25px 50px;
+        color: white;
+        text-shadow: 2px 2px;
+        position:relative;
+        bottom:-40px;
+        left:25px;
+        background-image: url("/photocart/img/images (3).jpeg");
+}
+#p_2{       
+        font-size: 80px;
+        padding: 25px 50px 25px 50px;
+        color: white;
+        text-shadow: 2px 2px;
+        position:relative;
+        bottom:-40px;
+        left:25px;
+        background-image: url("/photocart/img/images (3).jpeg");
+}
+#p_3{       
+        font-size: 80px;
+        padding: 25px 50px 25px 50px;
+        color: white;
+        text-shadow: 2px 2px;
+        position:relative;
+        bottom:-40px;
+        left:25px;
+        background-image: url("/photocart/img/images (3).jpeg");
+}
+
+
+
+
+
+
+document.getElementById("p_2").style.fontSize = "80px" ;
+    document.getElementById("p_2").style.padding = "25px 50px 25px 50px" ;
+    document.getElementById("p_2").style.color = "white" ;
+    document.getElementById("p_2").style.textShadow = "2px 2px" ;
+    document.getElementById("p_2").style.position = "relative" ;
+    document.getElementById("p_2").style.bottom = "-40px" ;
+    document.getElementById("p_2").style.left = "25px" ;
+    document.getElementById("p_2").style.backgroundImage = "url("/photocart/img/images (3).jpeg")" ; 
+    
+    document.getElementById("p_3").style.fontSize = "80px" ;
+    document.getElementById("p_3").style.padding = "25px 50px 25px 50px" ;
+    document.getElementById("p_3").style.color = "white" ;
+    document.getElementById("p_3").style.textShadow = "2px 2px" ;
+    document.getElementById("p_3").style.position = "relative" ;
+    document.getElementById("p_3").style.bottom = "-40px" ;
+    document.getElementById("p_3").style.left = "25px" ;
+    document.getElementById("p_3").style.backgroundImage = "url("/photocart/img/images (3).jpeg")" ;      
+    
+-------------------------------------------------------------------------------------------------------------------------------
+                         JAVA SCRIPT
+-------------------------------------------------------------------------------------------------------------------------------
+document.getElementById("photographers").onclick = function () {
+    p=document.getElementsByClassName("c3_1");
+    t=p[0];
+    t.innerHTML = "<div class="c3_1_1">
+                       <form action="" >
+                           <input type="submit" id="p_2" value="    MAITHILI  ROY    " > 
+                       </form>
+                   </div>
+                   <div class="c3_1_2">
+                       <form action="" >
+                           <input type="submit" id="p_3" value="DEBANGAN  MITRA" > 
+                       </form>
+                   </div>";
+          
+};
+--------------------------------------------------------------------------------------------------------------------------------
+document.getElementById("photographers").onclick = function () {
+    p=document.getElementsByClassName("c3_1");
+    t=p[0];
+    t.innerHTML = " <div class="c3_1_1">
+                        
+                    </div>
+                    <div class="c3_1_2">
+                        
+                    </div> " ;
+                    
+          
+          
+};
+
+
+---------------------------------------------------------
+p=document.getElementsByClassName("c2_1_2");
+    t=p[0];
+    t.style.backgroundColor = "red" ;
+
+
+
+
+
+
+
+
+
+.c3_1_1{
+        color:rgb(255,0,0);
+        float:left;
+        border: solid 5px black;
+        width:100%;
+        height:50%;
+        
+}
+
+.c3_1_2{
+        color:rgb(255,0,0);
+        float:left;
+        border: solid 5px black;
+        width:100%;
+        height:50%;
+        
+}
