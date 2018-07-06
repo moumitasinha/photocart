@@ -3,11 +3,15 @@
     <head>
         <title>REGISTER FORM</title>
         <link rel="stylesheet" href = "css/bootstrap.css"/>
+        <link rel="stylesheet" href = "css/register.css"/>
     </head>
     
     <body>
-        <div class = "container-fluid" style="background-image: url('img/milkyway.jpg') " >
-            <div class = " text-center">
+        <div class="row">
+            <div class="col-3">
+            </div>
+            
+            <div class = "container-fluid text-center col-6" style="background-image: url('img/milkyway.jpg') " id = "container" >
                 <div class="thumbnail">
                     <fieldset>
                         <legend><h1 class = "font-weight-bold" style = "color: #dee2e6"> REGISTRATION FORM </h1></legend>
@@ -28,17 +32,17 @@
                             <input type = "text" placeholder = contact_no name = "contact_no"/>
                             <hr/>
                             <label style = "color: #dee2e6" >AGE : </label> 
-                            <input type = "text" placeholder = age name = "age"/>
+                            <input type = "text" placeholder = age name = "age" required/>
                             <hr/>
                             <label style = "color: #dee2e6" >DATE_OF_BIRTH : </label> 
                             <input type = "text" placeholder = dd/mm/yyyy name = "dob"/>
                             <hr/>
                             <label style = "color: #dee2e6" >GENDER :</label> 
-                            <input type="radio" name="gender" value="male"/> 
+                            <input type="radio" name="gender" value="male" /> 
                             <label style = "color: #dee2e6" >Male</label>
                             <input style = "color: grey" type="radio" name="gender" value="female"/> 
                             <label style = "color: #dee2e6" >Female</label> 
-                            <input style = "color: #dee2e6" type="radio" name="gender" value="other"/>
+                            <input style = "color: #dee2e6" type="radio" name="gender" value="other" />
                             <label style = "color: #dee2e6" > Other</label> <br/>
                             <hr/>
                             <label style = "color: #dee2e6" >CATEGORY </label>         
@@ -53,17 +57,19 @@
                             <hr/>
                             <button class="btn btn-primary" type="submit" name="submit" >Submit</button>
                             </div>
-                        </form>
-                    
+                        </form>    
                     </fieldset>
                     <div class="row align-items-start">
                         <form action="/photocart/login_form.php"  >
                             <button class="btn btn-success" type="submit"> ALREADY REGISTERED?      login</button>
                         </form>
-                    </div>      
-                </div>               
+                    </div>                     
+                </div>
+            </div> 
+            
+            <div class="col-3">
             </div>
-        </div>            
+        </div>                  
     </body>
 </html>
 
