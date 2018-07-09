@@ -1,0 +1,42 @@
+CREATE TABLE categories( 
+id INT NOT NULL AUTO_INCREMENT, 
+name VARCHAR(250) NOT NULL, 
+PRIMARY KEY(id), 
+);
+
+------------------------------------------------------------
+
+CREATE TABLE photographers( 
+id INT NOT NULL AUTO_INCREMENT, 
+name VARCHAR(250) NOT NULL,
+email VARCHAR(250) NOT NULL,
+password VARCHAR(250) NOT NULL,
+address VARCHAR(250) NOT NULL,
+dob DATETIME NOT NULL,
+gender VARCHAR(5) NOT NULL,
+age VARCHAR(250) NOT NULL, 
+PRIMARY KEY(id)
+);
+-------------------------------------------------------------------
+
+CREATE TABLE photographs(
+id INT NOT NULL AUTO_INCREMENT, 
+date DATETIME NOT NULL,
+name VARCHAR(250) NOT NULL,
+photographer_id INT NOT NULL,
+category_id INT NOT NULL,
+PRIMARY KEY(id),
+FOREIGN KEY(photographer_id) REFERENCES photographers(id),
+FOREIGN KEY(category_id) REFERENCES categories(id)
+);
+
+------------------------------------------------------------------------
+ALTER TABLE photographers
+ADD contact_no INT NOT NULL;
+
+
+
+----------------------------------------------------------------------
+
+
+
